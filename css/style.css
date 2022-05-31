@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Searcher */
+
+.searcher{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding: 20px 0;
+    background-color:darkviolet;
+}
+
+#input-search{
+    border-radius: 0px;
+    border: 0;
+    padding:5px;
+    outline: 0;
+}
+
+#btn-request{
+    border-radius: 0px;
+    border: 0;
+    padding:5px;
+}
+
+#btn-request:hover{
+    background-color:darkgrey;
+    color: aliceblue;
+    transition: 0.3s;
+}
+
+
+/* Movie List */
+ul {    
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.movie{
+    /* border: solid 1px rgb(0, 255, 26); */
+    width: 180px;
+    height: 320px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.85);
+    display: block;
+    margin: 5px;
+    align-content: space-around;
+}
+.poster{
+    /* border: solid 1px rgb(204, 255, 0); */
+    padding-top: 5px;
+}
+
+.poster > img{
+    /* border: solid 1px rgb(85, 0, 255); */
+    height: 250px;
+    width: 160px;
+}
+
+.title{
+    /* border: solid 1px red; */
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.year{
+    /* border: solid 1px rgb(255, 0, 242); */
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding:2px;
+}
